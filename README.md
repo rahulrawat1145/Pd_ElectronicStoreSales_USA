@@ -15,7 +15,7 @@ Once our data is cleaned, we dive into the exploration phase. To address these i
 
 ## Results and discussion
 
-Cleaning the data:
+Cleaning the data- Some codes refering to the cleaning process are as under:
 ```
 all_data['Quantity Ordered'] = all_data['Quantity Ordered'].astype('int')
 all_data['Price Each'] = all_data['Price Each'].astype('float')
